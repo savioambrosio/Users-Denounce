@@ -1,0 +1,57 @@
+*{
+    font-family: 'Poppins', sans-serif,"Josefin Slab", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+#part1 .me{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+#part1 ul li a:hover{
+    color: gold
+}
+#part1 nav{
+    background-color: rgba(12, 60, 214, 0.959);
+}
+#part1 nav{
+    border-color: gold;
+    border-radius: 2px;
+    box-shadow: 0 4px 4px white;
+}
+.container .card{
+    margin: 5%;
+    margin-left: 25%;
+    width: 45%;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgb(40, 40, 40);
+}
+.ola img{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    padding-left: 30px;
+}
+.ola1 img{
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 32%;
+    margin-right: 40px;
+}
+
+.ola2 {
+    align-items: center;
+    color: gray;
+    position: center;
+    justify-content: center;
+}
+@media screen and (max-width:600px) {
+    .container .card{
+        margin: 0%;
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 20%;
+    }
+}

@@ -1,0 +1,99 @@
+*{
+    font-family: 'Poppins', sans-serif,"Josefin Slab", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+#part2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.9);
+}
+
+#part2 .carousel-inner img{
+    width: 100vw;
+    height: 10vw;
+    object-fit: cover;  
+    opacity: 0.5;
+    background-color: black; 
+}
+#part3 .table-bg{
+    border-radius: 15px, 15px, 0, 0;
+}
+
+#part3{
+    width: 100%;
+    margin-top: 1%;
+    display: box;
+    padding: 25px;
+
+}
+.con{
+    padding-top: 50px;
+}
+.fc{
+    margin-left: 2%;
+}
+#part2 .cara{
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(8px);
+    margin-left: 2%;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px blue;
+}
+#part2 .cas{
+    position: absolute;
+    top: 25%;
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: 1%;
+    padding-bottom: 4px;
+    margin-left: 90%;
+}
+#part2 .cara h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+@media screen and (max-width:600px) {
+    #part2 .card{
+        margin: 0%;
+        margin-left: 0%;
+        width: 90%;
+        margin-top: 5%;
+        padding: 5px;
+    }
+    #part2 .cara{
+        top:45%;
+    }
+    #part2 .carousel-inner img{
+        width: 100vw;
+        height: 35vw;
+        object-fit: cover;  
+        opacity: 0.5;
+        background-color: black; 
+    }
+    #part2 .cas{
+        position: absolute;
+        top: 1%;
+        padding: 10px;
+        padding-top: 15px;
+        margin-left: 0%;
+        padding-bottom: 6px;
+    }
+    #part3 .table{
+        width:10%;
+    }
+    #part3{
+        width: 100%;
+        margin-top: 6%;
+        display: box;
+        padding: 5px;
+    }
+    .fc{
+        padding-left: 15px;
+        padding-right: 30px;
+    }
+}
